@@ -1,52 +1,54 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-      <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <script src="js/jquery-1.11.2.js"></script>
-      <script src="js/scripts.js"></script>
-      <title>Address Book</title>
-    </head>
-    <body>
-      <div class="container">
-        <h1>Address Book</h1>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Address Book</title>
+  </head>
+  <body>
+    <div class = "container">
+      <h1>Address Book</h1>
 
-        <div class="row">
-          <div class="col-md-6">
-            <h2>Add Contact</h2>
-            <form id="new-contact">
-              <div class="form-group">
-                <label for="new-first-name">First Name</label>
-                <input type="text" class="form-control" id="new-first-name">
-              </div>
-              <div class-"form-group">
-                <label for="new-last-name">Last Name</label>
-                <input type="text" class="form-control" id="new-last-name">
-              </div>  
-              <div class="form-group">
-                <label for="new-address">Address</label>
-                <input type="text" class="form-control" id="new-address">
-              </div>
-      	      
-      	      <button type="submit" class="btn btn-danger">Add</button>
-      	    </form>
+      <div class ="row">
+        <div class="col-md-6">
+          <h2>Add a contact:</h2>
+          <form id="new-contact">
+            <div class="form-group">
+              <label for="new-first-name">First Name</label>
+              <input type="text" class="form-control" id="new-first-name">
+            </div>
+            <div class="form-group">
+              <label for="new-last-name">Last Name</label>
+              <input type="text" class="form-control" id="new-last-name">
+            </div>
+            <div class="form-group">
+              <label for="new-address">Address</label>
+              <input type="text" class="form-control" id="new-address">
+            </div>
+            <div class ="form-group">
+              <label for="new-number">Phone Number</label>
+              <input type="text" class="form-control" id="new-number">
+            </div>
+            <button type="submit" class="btn btn-danger">ADD</button>
+          </form>
 
-      	    <h2>Contacts</h2>
-      	    <ul id="contacts">
-      	    </ul>
-      	  <div class="col-md-6">
-  			<div id="show-contact">
-    		  <h2></h2>
+          <h2>Contacts:</h2>
+          <ul id="contacts">
+          </ul>
+        </div>
 
-    		  <p>First name: <span class="first-name"></span></p>
-    		  <p>Last name: <span class="last-name"></span></p>
-    		  <p>Address: <span class="address"></span></p>
-			</div>
-		  </div> 
+        <div class ="col-md-6">
+          <div id = "show-contact">
+            <h2></h2>
+            <p>First Name: <span class="first-name"></span></p>
+            <p>Last Name: <span class="last-name"></span></p>
+            <p>Address: <span class="address"></span></p>
+            <p>Phone Number: <span class="number"></span></p>
+          </div>
         </div>
       </div>
-   </body>
-</html>	    
-
-
-
+    </div>
+  </body>
+</html>
