@@ -2,6 +2,13 @@
   display: none;
 }
 
+body {
+  background: url("../img/roads.jpg") no-repeat;
+  background-size: cover;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+
+
 .contact {
   cursor: pointer;
   color: #0088cc;
@@ -9,12 +16,4 @@
 
 .contact:hover {
   text-decoration: underline;
-}
-
-body {
-  background: url("../img/street.jpg") no-repeat;
-  background-size: cover;
-  font-family: Helvetica, Arial, Verdana, sans-serif;
-  color: gray;
-
 }
