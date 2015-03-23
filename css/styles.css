@@ -10,3 +10,11 @@
 .contact:hover {
   text-decoration: underline;
 }
+
+body {
+  background: url("../img/street.jpg") no-repeat;
+  background-size: cover;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  color: gray;
+
+}
